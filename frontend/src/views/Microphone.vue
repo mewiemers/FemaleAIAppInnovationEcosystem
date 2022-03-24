@@ -3,8 +3,9 @@
         <div id="select">
             <h2>Select your language:</h2>
             <select name="lang" @change="onChange($event)" class="custom-select">
-                <option value="de-DE" selected>German</option>
+                <option value="es-ES" selected>Spanisch</option>
                 <option value="en-US">English</option>
+                
             </select>
         </div>
         <br>
@@ -35,7 +36,7 @@ var recognizer: SpeechRecognizer;
 })
 export default class Microphone extends Vue {
   text = "";
-  selectedLanguage = "de-DE";
+  selectedLanguage = "es-ES";
 
   onStream(stream: MediaStream): void {
     const speechConfig = SpeechConfig.fromSubscription(speechApiKey, region);
