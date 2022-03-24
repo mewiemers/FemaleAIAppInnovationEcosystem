@@ -10,7 +10,7 @@
         <br>
         <NavBarBack />
         <VueRecordAudio mode="press" @stream="onStream" @result="onResult" />
-        <p class="is-large">{{ text }}</p>
+        <p class="is-large">{{ text }}</p>speechConfig.speechRecognitionLanguage
     </div>
 </template>
 
