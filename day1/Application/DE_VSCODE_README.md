@@ -23,7 +23,7 @@ Euer Projekt sollte sich direkt im Visual Studio Code Editor öffnen. Ihr könnt
 Jede Änderung am Programmcode wird direkt in der Anwendung sichtbar. (Es sei den man macht etwas kaputt, aber keine Sorge: Dank Versionskontrolle könnt ihr immer wieder auf die funktionierende Version zurückgehen.)
 
 ```shell
-cd fronted
+cd frontend
 npm install
 npm run serve
 ```
